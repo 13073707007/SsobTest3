@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/confirm_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corners_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/confirm_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@style/confirm_title_style"
+        android:text="提醒" />
+
+    <TextView
+        android:id="@+id/confirm_massage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@style/confirm_massage_style" />
+
+    <CheckBox
+        android:id="@+id/confirm_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="不再提示" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_corners_bg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/confirm_true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="" />
+
+        <Button
+            android:id="@+id/confirm_false"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="取消" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navigation_bar_height"
+        android:background="@color/lan"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_head_portrait"
+            android:layout_width="@dimen/navigation_bar_iconsize"
+            android:layout_height="@dimen/navigation_bar_iconsize"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="17dp"
+            android:src="@drawable/fanhui_" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/iv_head_portrait"
+            android:layout_centerHorizontal="true"
+            android:text="上传头像"
+            android:textColor="@color/white"
+            android:textSize="@dimen/navigation_bar_font_size" />
+
+        <Button
+            android:id="@+id/btn_head_portrait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView1"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:background="@null"
+            android:textColor="@color/white"
+            android:textSize="@dimen/navigation_bar_menu_font_size"
+            android:text="提交" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/_head_portrait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/touxiang_03" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btn_head_portrait_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="15dp"
+            android:background="@drawable/button_enter"
+            android:text="取消" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_head_portrait_cancel"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/hui" />
+
+            <Button
+                android:id="@+id/btn_camera"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="拍  照"
+                android:textColor="@color/zi"
+                android:textSize="18dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/hui" />
+
+            <Button
+                android:id="@+id/btn_photo_album"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="相  册"
+                android:textColor="@color/zi"
+                android:textSize="18dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/hui" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

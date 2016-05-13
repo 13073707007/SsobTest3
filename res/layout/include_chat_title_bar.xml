@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_include_titlebar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/navigation_bar_height"
+    android:background="@color/lan"
+    android:gravity="center_vertical" >
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/icon_back"
+        android:onClick="back"
+        android:visibility="gone" />
+    <!-- android:onClick="back" -->
+
+    <Button
+        android:id="@+id/btn_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/more"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="20dp"
+        android:text="注册"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="20dp"
+        android:text="登录"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/bt_horn"
+        android:layout_width="@dimen/navigation_bar_iconsize"
+        android:layout_height="@dimen/navigation_bar_iconsize"
+        android:layout_alignBottom="@+id/bt_set"
+        android:layout_marginRight="12dp"
+        android:layout_toLeftOf="@+id/bt_set"
+        android:src="@drawable/laba" />
+    <ImageView
+        android:id="@+id/bt_bi_horn"
+        android:layout_width="@dimen/navigation_bar_iconsize"
+        android:layout_height="@dimen/navigation_bar_iconsize"
+        android:layout_alignBottom="@+id/bt_set"
+        android:layout_marginRight="12dp"
+        android:layout_toLeftOf="@+id/bt_set"
+        android:src="@drawable/biyin"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/bt_mark"
+        android:layout_width="@dimen/navigation_bar_iconsize"
+        android:layout_height="@dimen/navigation_bar_iconsize"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:visibility="gone"
+        android:background="@drawable/wenhao" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="小帮"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/navigation_bar_font_size" />
+
+    <Button
+        android:id="@+id/bt_set"
+        android:layout_width="@dimen/navigation_bar_iconsize"
+        android:layout_height="@dimen/navigation_bar_iconsize"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tv_title"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/shezhi" />
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navigation_bar_height"
+        android:background="@color/lan"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_fanhuima"
+            android:layout_width="@dimen/navigation_bar_iconsize"
+            android:layout_height="@dimen/navigation_bar_iconsize"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="17dp"
+            android:src="@drawable/fanhui_" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/iv_fanhuima"
+            android:layout_centerHorizontal="true"
+            android:text="填写个性宣言"
+            android:textColor="@color/white"
+            android:textSize="@dimen/navigation_bar_font_size" />
+
+        <Button
+            android:id="@+id/btn_manifesto_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:text="提交"
+            android:textColor="@color/white"
+            android:textSize="@dimen/navigation_bar_menu_font_size" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/ed_manifesto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/baitiao"
+        android:gravity="top"
+        android:hint="大胆表现自己吧,丰富的内容可以让你在乌泱乌泱的人群中脱颖而出哦~"
+        android:maxLines="20"
+        android:minLines="20" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>

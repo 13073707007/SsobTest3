@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- 顶部菜单栏高度 -->
+    <dimen name="navigation_bar_height">50dp</dimen>
+    <!-- 顶部菜单栏图标大小 -->
+    <dimen name="navigation_bar_iconsize">27dp</dimen>
+    <!-- 顶部菜单栏字体大小 -->
+    <dimen name="navigation_bar_font_size">22dp</dimen>
+    <!-- 顶部菜单栏控件字体大小 -->
+    <dimen name="navigation_bar_menu_font_size">17dp</dimen>
+
+</resources>

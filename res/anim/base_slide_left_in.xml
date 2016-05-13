@@ -1,0 +1,13 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+<!-- 
+    <translate
+        android:duration="@integer/slide_animation_duration"
+        android:fromXDelta="-100.0%"
+        android:interpolator="@android:anim/decelerate_interpolator"
+        android:toYDelta="0.0%" />
+ -->
+ <!-- 定义从左向右滑动时，后一页进入的动画 -->  
+  
+    <translate android:fromXDelta="100%p" android:toXDelta="0"  
+        android:duration="@android:integer/config_shortAnimTime" />  
+</set>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_">14dp</dimen>
+    <dimen name="pading_">5dp</dimen>
+    <dimen name="btn_size">22sp</dimen>
+    <dimen name="txt_size">18sp</dimen>
+
+    <!-- 分割线高度 -->
+    <dimen name="line_height">1dp</dimen>
+    <dimen name="rdo1">0dp</dimen>
+    <dimen name="rdo2">100dp</dimen>
+    <dimen name="rdo3">200dp</dimen>
+    <dimen name="rdo4">300dp</dimen>
+    <dimen name="rdo5">400dp</dimen>
+    <dimen name="rdo6">500dp</dimen>
+    <dimen name="rdo7">600dp</dimen>
+    <dimen name="rdo8">700dp</dimen>
+    <dimen name="rdo9">800dp</dimen>
+
+</resources>

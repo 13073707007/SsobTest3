@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f5f5f5"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/main_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btn_littlevoice"
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/huatong" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <EditText
+                android:id="@+id/et_textinput"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/icon_textinput9"
+                android:editable="true"
+                android:focusable="true"
+                android:layout_weight="5.47"
+                android:hint="请输入您想说的话"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lt_sendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp"
+            android:layout_weight="0.1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btn_send"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/icon_clickwhite"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="发送"
+                 android:visibility="gone"
+                android:textColor="@color/blue_text"
+                android:textSize="16dp"
+                 />
+
+            <Button
+                android:id="@+id/btn_more2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/sige" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

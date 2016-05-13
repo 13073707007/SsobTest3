@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/tab_order_2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/orderTextview2"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/chat_mainbg"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="最近半小时无订单"
+            android:textSize="20dp"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/orderManagerListView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/chat_mainbg"
+            android:clickable="false"
+            android:divider="@null"
+            android:dividerHeight="2dp"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="false"
+            android:scrollbarStyle="outsideOverlay"
+            android:transcriptMode="normal" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>
